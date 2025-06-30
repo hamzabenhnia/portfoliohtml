@@ -5,47 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="shortcut icon" href="./asset/portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <img src="./asset/portimg.png" alt="image1">
+            <section id="Acceuil">
             <ul> 
-                <li><a href="#">Acceuil</a></li>
-                <li><a href="Apropos">A propos</a></li>
-                <li><a href="#">Travail</a></li>
-                <li><a href="#">CV</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#Acceuil">Acceuil</a></li>
+                <li><a href="#Apropos">A propos</a></li>
+                <li><a href="#Travail">Travail</a></li>
+                <li><a href="#CV">CV</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
+            </section>
             
         </nav>
     </header>
     <hr>
     <main>
-        <section id="Apropos">
+     
+        <section id="Apropos" >
             <center>
             <h1>HAMZA BEN HNIA</h1>
             <h2>Développeur full Stack</h2>
+
+           </center>
+            <div class="Apropos">
+
+
             <img src="./asset/image 1 .jpg" alt="" width="200">
             
             <p>Développeur Full Stack passionné, je conçois et développe des applications web performantes en alliant la maîtrise des technologies front-end (HTML, CSS, JavaScript, React/Vue.js) et back-end (Node.js, PHP, Python, ou Java). Mon approche complète me permet d’intervenir à chaque étape d’un projet : de la conception de l’architecture à l’implémentation des fonctionnalités, jusqu’à la mise en production. Curieux, autonome et rigoureux, je m’efforce de livrer des solutions fiables et évolutives, tout en restant à l’écoute des besoins des utilisateurs et des équipes métier</p>
-            </center>
+            </div>
         </section>
-        <section id="Travail">
+        <section id="Travail" >
+            <center>
             <h1>Mon travail</h1>
+            </center>
+            <div class="Travail">
             <iframe src="https://gomycode.com/tn/fr/" frameborder="0" width="300" height="300"></iframe>
             <iframe src="https://www.tayara.tn/fr/" frameborder="0" width="300" height="300"></iframe>
             <iframe src="https://indrive.com/" frameborder="0" width="300" height="300"></iframe>
-
+            </div>
 
         </section>
 
     <section id="CV">
         <h3>
          veuillez consulter mon CV sur ce lien <a href="#">mon CV</a></h3>
-         <h3> Compétenses </h3>
+         
+        <center>
+         <h3> Compétenses </h3>  
+        </center>       
+         
+         <div class="CV">
          <iframe  width="560" height="315" src="https://www.youtube.com/embed/UlkFcgTxbzs?si=YeZhsmTrVmZ929AM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
          <audio src="asset/majestic-sky_outro-361086.mp3" controls></audio>
+         
          <table>
             <tr>
                 <td> <img src="./asset/HTML_icon.png" alt="html_icon" width="200PX"></td>
@@ -53,6 +71,7 @@
                 <td> <img src="asset/JS__icon.png" alt="js_icon" width="200px"></td>
             </tr>
          </table>
+         </div>
     </section>
     <section id="Contact">
         <form action="">

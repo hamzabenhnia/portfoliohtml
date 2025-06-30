@@ -1,0 +1,77 @@
+
+.navbar{
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+   }  
+
+
+
+.navbar img{ background-color: beige; padding: 20px; border-radius: 50%; position: relative; }  
+.navbar li{ display: inline-block; margin: 10px;}    
+
+.Apropos { display: flex;
+  align-items: center;
+  background: #f8f9fd;
+  padding: 32px 24px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.06);
+  margin: 30px 0;
+  gap: 32px;}
+
+.Apropos img{ width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.10); }
+  .Apropos p{font-size: medium;
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+  border: 3px solid rgb(13, 0, 128);}
+
+  h1{font-size: larger;
+  font-weight: 700;}
+  h2{font-size: large;}
+
+.Travail{ display: flex;
+  align-items: center;
+  background: #f8f9fd;
+  padding: 50px 50px;
+  border-radius: 14px;
+  box-shadow: 10px 2px 8px rgba(78,84,200,0.06);
+  margin: 30px 50px;
+  gap: 50px;}
+
+.Travail iframe{ padding: 20px ;}
+
+
+  .CV table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 32px 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.08);
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+
+
+.CV table td{ padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;}
+
+.CV table th{ background: #f4f4f4;}
+
+.CV iframe{ width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(78,84,200,0.08);}
